@@ -727,6 +727,30 @@ section {
   border-radius: 5px;
   border: 1px solid #eef0ef;
 }
+.courses .btn-wrap {
+  margin: 10px -10px -10px -10px;
+  padding: 10px 5px;
+  background: #f8f8f8;
+  text-align: center;
+}
+
+.courses .btn-buy {
+  background: #5fcf80;
+  display: inline-block;
+  padding: 12px 45px;
+  border-radius: 50px;
+  color: #fff;
+  transition: none;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.courses .btn-buy:hover {
+  background: #3ac162;
+}
 
 .courses .course-content {
   padding: 15px;
