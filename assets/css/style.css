@@ -1219,7 +1219,7 @@ section {
 }
 
 .pricing ul i {
-  color: #5fcf80;
+  color: hwb(138 37% 19%);
   font-size: 18px;
   padding-right: 4px;
 }
@@ -1228,7 +1228,11 @@ section {
   color: #ccc;
   text-decoration: line-through;
 }
-
+.pricing .na {
+  color: hwb(138 37% 19%);
+  text-decoration: line-through;
+  text-decoration-color: red;
+}
 .pricing .btn-wrap {
   margin: 20px -20px -20px -20px;
   padding: 20px 15px;
@@ -1259,12 +1263,24 @@ section {
   background: #5fcf80;
 }
 
-.pricing .advanced {
-  width: 200px;
+.pricing .advanced-right {
+  width: 250px;
   position: absolute;
-  top: 18px;
+  top: 38px;
   right: -68px;
   transform: rotate(45deg);
+  z-index: 1;
+  font-size: 14px;
+  padding: 1px 0 3px 0;
+  background: #5fcf80;
+  color: #fff;
+}
+.pricing .advanced-left {
+  width: 250px;
+  position: absolute;
+  top: 40px;
+  left: -68px;
+  transform: rotate(315deg);
   z-index: 1;
   font-size: 14px;
   padding: 1px 0 3px 0;
